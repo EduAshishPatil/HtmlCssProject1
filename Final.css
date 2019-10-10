@@ -194,6 +194,8 @@ div.grid-child {
     margin-right: 10px;
     padding: 20px;
     border-radius: 20px;
+    transition: all 0.6s;
+
 }
 
 div.grid-child p {
@@ -202,7 +204,6 @@ div.grid-child p {
 
 div.grid-parent:hover .grid-child {
     box-shadow: 0 0 20px;
-    transition: all 0.6s;
 }
 
 
