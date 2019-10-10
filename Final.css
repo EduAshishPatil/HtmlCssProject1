@@ -113,18 +113,19 @@ hr {
 /* IMAGE */
 
 div.img-parent {
+    margin-top: 40px;
     width: 50%;
     float: left;
-    margin-top: 40px;
 }
 
 section.sectionA-parent .child {
-    marrgin-left: 15px;
+    margin-left: 15px;
 }
 
 div.child img {
     display: block;
     width: 100%;
+    /* margin: 10px 0; */
 }
 
 
@@ -136,6 +137,7 @@ div.img-parent {
 }
 
 div.empty {
+    transition: all 0.8s;
     width: 100%;
     height: 100%;
     background-color: rgba(255, 255, 255, 0.6);
@@ -145,7 +147,6 @@ div.empty {
     text-align: center;
     line-height: 110px;
     font-size: 80px;
-    transition: all 0.8s;
 }
 
 .img-parent:hover div.empty {
@@ -158,7 +159,7 @@ div.empty {
     <!-- --------------SECTION 2 ------------------------ -->
     <!-- ------------------------------------------------ --*/
 
-section.section-main-parent {
+.section-main-parent {
     background-image: url("https://images.pexels.com/photos/305821/pexels-photo-305821.jpeg?cs=srgb&dl=botanical-cactus-close-up-305821.jpg&fm=jpg");
     background-size: cover;
     background-position: center;
