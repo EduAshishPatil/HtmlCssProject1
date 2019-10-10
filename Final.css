@@ -114,8 +114,11 @@ hr {
 
 div.img-parent {
     margin-top: 40px;
+    margin-right:15px;
     width: 50%;
     float: left;
+    position: relative;
+    overflow: hidden;
 }
 
 section.sectionA-parent .child {
@@ -131,10 +134,7 @@ div.child img {
 
 /* HOVER ON IMAGES */
 
-div.img-parent {
-    position: relative;
-    overflow: hidden;
-}
+
 
 div.empty {
     transition: all 0.8s;
