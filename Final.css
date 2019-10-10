@@ -120,10 +120,6 @@ div.img-parent {
     overflow: hidden;
 }
 
-section.sectionA-parent .child {
-    margin-left: 15px;
-}
-
 div.child img {
     margin-right:15px;
     display: block;
