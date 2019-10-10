@@ -121,7 +121,7 @@ div.img-parent {
 }
 
 div.child img {
-    margin-right:15px;
+    margin-left:15px;
     display: block;
     width: 100%;
     /* margin: 10px 0; */
