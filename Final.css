@@ -114,7 +114,6 @@ hr {
 
 div.img-parent {
     margin-top: 40px;
-    margin-right:15px;
     width: 50%;
     float: left;
     position: relative;
@@ -126,6 +125,7 @@ section.sectionA-parent .child {
 }
 
 div.child img {
+    margin-right:15px;
     display: block;
     width: 100%;
     /* margin: 10px 0; */
